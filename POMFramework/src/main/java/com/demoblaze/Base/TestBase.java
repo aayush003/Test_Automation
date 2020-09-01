@@ -34,7 +34,7 @@ public class TestBase {
 	public static void initialization(){
 		
 		String browserName  = prop.getProperty("browser");
-		//System.out.println(browserName);
+		System.out.println(browserName);
 		//System.out.println("Entering Initialization");
 		
 		if(browserName.equals("chrome"))
